@@ -1,4 +1,4 @@
-import { IPokeProps } from './../models/IResponse';
+import { IPokeProps } from './../interface/IResponse';
 import { Component, Input, OnInit } from '@angular/core';
 import { putZerosLeft, randomColors } from '../utils/utils';
 

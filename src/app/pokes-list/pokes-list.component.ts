@@ -1,4 +1,4 @@
-import { IPokeProps } from './../models/IResponse';
+import { IPokeProps } from './../interface/IResponse';
 
 import { ApiService } from './../service/api.service';
 import { Component, DoCheck, OnInit } from '@angular/core';
@@ -54,6 +54,6 @@ export class PokesListComponent implements OnInit, DoCheck {
 
   more() {
     this.service.moreData();
-    console.log(this.service.pokemons)
+    console.log(this.service.pokemons);
   }
 }

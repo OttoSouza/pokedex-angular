@@ -1,4 +1,4 @@
-import { IResponse, IPokeProps } from './../models/IResponse';
+import { IResponse, IPokeProps } from './../interface/IResponse';
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { map, mergeMap, from } from 'rxjs';
